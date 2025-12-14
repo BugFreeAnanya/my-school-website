@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samaritans Sr. Sec. School</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <style>
+            body {
+                background-color: skyblue;
+            }
+            .navbar {
+                background-color: blue;
+            }
+            .nav-link:hover {
+                border-bottom: 3px solid greenyellow;
+                transition: 0.5s ease;
+            }
+            .carousel-container {
+                padding-top: 3%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 500px;
+            }
+            .myslides {
+                display: none;
+                max-width: 100%;
+                max-height: 100%;
+            }
+        </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Samaritans School</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="carousel-container">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1nw_eeNDR8TEUc1tO53CT-yZ6gUi2hlkHtw&s" height="500" width="600" class="myslides">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9GFMMIbSL8Iaa-aPoGspcjiPS92PCE1tbgw&s" height="500"
+        width="600" class="myslides">
+        <img src="https://content3.jdmagicbox.com/comp/hoshangabad/f4/9999p7574.7574.171203100024.t8f4/catalogue/samaritans-english-medium-higher-secondary-school-hoshangabad-senior-secondary-schools-WSMZkAyhSh.jpg" height="500"
+            width="600" class="myslides">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
